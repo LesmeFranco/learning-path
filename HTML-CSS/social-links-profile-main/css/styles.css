@@ -1,0 +1,79 @@
+/* Mobile: 375px - Desktop: 1440px */
+/* Green: hsl(75, 94%, 57%) - White: hsl(0, 0%, 100%) - Grey 700: hsl(0, 0%, 20%) - Grey 800: hsl(0, 0%, 12%) - Grey 900: hsl(0, 0%, 8%) */
+/* Family: [Inter](https://fonts.google.com/specimen/Inter) */
+/* Weights: 400, 600, 700 */
+/* Font size (paragraph): 14px */
+
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey700: hsl(0, 0%, 20%);
+    --grey800: hsl(0, 0%, 12%);
+    --grey900: hsl(0, 0%, 8%);
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+    font-weight: 400 600 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--white);
+    background-color: var(--grey900);
+}
+
+.profile-card {
+    max-width: 375px;
+    background-color: var(--grey800);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.profile-header {
+    text-align: center;
+}
+
+.profile-name {
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0;
+}
+
+.profile-location {
+    font-weight: 600;
+    color: var(--green);
+}
+
+.profile-description {
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.social-links { 
+    display: flex;
+    flex-direction: column;
+}
+
+.social-links:hover { 
+    background-color: var(--green);
+    display: flex;
+    text-align: end;
+    flex-direction: column;
+    cursor: pointer;
+}
