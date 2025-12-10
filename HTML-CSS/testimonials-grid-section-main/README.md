@@ -25,13 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+<img src="./screenshots/desktop.png" />
+<img src="./screenshots/mobile.png" />
 
 ### Links
 
@@ -44,37 +39,56 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
 - CSS Grid
 - Mobile-first workflow
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This project helped me deepen my understanding of CSS Grid and how powerful it is for building flexible, scalable layouts. I learned how to define both rows and columns using different units, how to structure a layout with grid-template-areas, and how to assign specific items to those areas using selectors like :nth-child().
 
-To see how you can add code snippets, see below:
+I also improved my ability to make components responsive by adapting the grid structure depending on the screen size. This made me understand how grid can replace complex flexbox setups when working with multi-section layouts.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
+Some examples of what I learned:
+
+```css
+grid-template-areas:
+  "one"
+  "two"
+  "three"
+  "four"
+  "five";
 ```
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.testimonial:nth-child(1) {
+  grid-area: one;
+}
+.testimonial:nth-child(2) {
+  grid-area: two;
+}
+.testimonial:nth-child(3) {
+  grid-area: three;
+}
+.testimonial:nth-child(4) {
+  grid-area: four;
+}
+.testimonial:nth-child(5) {
+  grid-area: five;
 }
 ```
 
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+I also practiced using fixed units (like px) together with flexible units (like fr) to control how the grid expands or shrinks, and I reinforced key concepts like implicit vs. explicit grids, alignment, and grid-flow behavior.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I want to keep improving my layout skills, especially with CSS Grid and Flexbox, since they’re essential for building modern, responsive interfaces. My next goals are:
+
+- Practicing more complex, multi-column grid layouts
+- Combining media queries with grid to create adaptive designs
+- Improving my understanding of flexible units (fr, %, minmax(), auto)
+- Getting more comfortable choosing the right tool between grid and flexbox depending on the layout pattern
+
+I’ll keep building more Frontend Mentor projects to solidify these concepts and continue pushing my abilities.
 
 ### Useful resources
 
