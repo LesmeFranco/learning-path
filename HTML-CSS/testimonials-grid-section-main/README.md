@@ -35,8 +35,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here]()
+- Solution URL: [Add solution URL here](https://github.com/LesmeFranco/learning-path/tree/main/HTML-CSS/testimonials-grid-section-main)
+- Live Site URL: [Add live site URL here](https://testimonials-grid-section-roan-xi.vercel.app/)
 
 ## My process
 
