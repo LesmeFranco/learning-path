@@ -1,0 +1,12 @@
+/* Mobile: 375px - Desktop: 1440px */
+/* Family: [Manrope](https://fonts.google.com/specimen/Manrope) - Weights: 500, 700 */
+/* Font size: 13px */
+/* - [Font Awesome](https://fontawesome.com) - [IcoMoon](https://icomoon.io) - [Ionicons](https://ionicons.com) */
+
+:root {
+    /* Colors */
+    --very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --desaturated-dark-blue: hsl(214, 17%, 51%);
+    --grayish-blue: hsl(212, 23%, 69%);
+    --light-grayish-blue: hsl(210, 46%,; 95%);
+}
