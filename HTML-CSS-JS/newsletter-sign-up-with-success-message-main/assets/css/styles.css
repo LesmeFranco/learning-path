@@ -1,0 +1,30 @@
+/* Mobile: 375px - Desktop: 1440px */
+/* Family: [Roboto](https://fonts.google.com/specimen/Roboto) - Weights: 400, 700 */
+/* Font size (paragraph): 16px */
+
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Primary Colors  */
+    --red: hsl(4, 100%, 67%);
+
+    /* Neutral Colors */
+    --blue-800: hsl(234, 29%, 20%);
+    --blue-700: hsl(235, 18%, 26%);
+    --grey: hsl(0, 0%,58%);
+    --white: hsl(0, 0%, 100%);
+}
