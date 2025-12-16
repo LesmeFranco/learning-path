@@ -1,7 +1,8 @@
 /* Mobile: 375px - Desktop: 1440px */
+/* - [Font Awesome](https://fontawesome.com) - [IcoMoon](https://icomoon.io) - [Ionicons](https://ionicons.com) */
 /* Family: [Manrope](https://fonts.google.com/specimen/Manrope) - Weights: 500, 700 */
 /* Font size: 13px */
-/* - [Font Awesome](https://fontawesome.com) - [IcoMoon](https://icomoon.io) - [Ionicons](https://ionicons.com) */
+
 
 :root {
     /* Colors */
@@ -11,7 +12,7 @@
     --light-grayish-blue: hsl(210, 46%, 95%);
 
     /* Font */
-    --ff-manrope: 'Manrope';
+    --ff-primary: 'Manrope';
 }
 
 * {
@@ -22,7 +23,7 @@
 
 body {
     min-height: 100vh;
-    font-family: var(--ff-manrope);
+    font-family: var(--ff-primary);
     background-color: var(--light-grayish-blue);
     display: flex;
     align-items: center;
@@ -31,14 +32,16 @@ body {
 
 .card {
     background-color: white;
-    max-width: 400px;
+    box-shadow: 1rem 1rem 2rem -2rem black;
+    max-width: 350px;
     border-radius: 12px;
     overflow: hidden;
+    position: relative;
 }
 
 .card__image {
-  height: 265px;      /* el alto que quieras */
-  overflow: hidden;   /* esconde el resto */
+  height: 265px;
+  overflow: hidden;
 }
 
 .card__image img {
@@ -53,7 +56,7 @@ body {
 
 .card__title {
     font-weight: 700;
-    font-size: 1.25rem;
+    font-size: 1.05rem;
     margin-bottom: 12px;
 }
 
@@ -96,8 +99,94 @@ body {
 }
 
 .share-icon {
+    width: 32px;
+    height: 32px;
+    padding: 0;
     margin-left: auto;
     background: var(--light-grayish-blue);
-    padding: 10px;
     border-radius: 50%;
+    border: 0;
+    z-index: 10;
+    position: relative;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.share-icon img {
+    width: 12px;
+    height: 12px;
+}
+
+.share-icon.active-btn {
+  background-color: var(--grayish-blue);
+}
+
+.share-icon.active-btn img {
+  filter: brightness(0) invert(1);
+}
+
+.share-menu {
+    background-color: var(--very-dark-grayish-blue);
+    color: var(--grayish-blue);
+    display: none;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 36px;
+    border-radius: 0 0 12px 12px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    font-size: 0.8rem;
+    letter-spacing: 10px;
+}
+
+.share-menu.active {
+    display: flex;
+}
+
+.share-menu img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+@media (min-width: 900px) {
+
+    .card {
+        max-width: 700px;
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+    }
+
+    .card__image {
+        height: 100;
+    }
+
+    .card__image img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .share-menu {
+        bottom: auto;
+        left: auto;
+        right: 40px;
+        top: 50%;
+        transform: translate(9%, 20%);
+        border-radius: 10px;
+        padding: 16px 24px;
+    }
+
+    .share-menu::after {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        right: 24px;
+        border-width: 10px 10px 0 10px;
+        border-style: solid;
+        border-color: var(--very-dark-grayish-blue) transparent transparent transparent;
+    } 
 }
