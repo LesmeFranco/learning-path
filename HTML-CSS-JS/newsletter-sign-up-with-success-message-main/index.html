@@ -7,40 +7,56 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="./assets/css/styles.css">
+  <script defer src="./assets/js/script.js"></script>
 
-  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  <title>Newsletter sign-up form with success message</title>
 </head>
 
 <body>
+  <main class="form-card">
+    <form class="form" id="newsletter-form" novalidate>
+      <div class="form-img">
+        <picture>
+          <source media="(min-width: 768px)" srcset="./assets/images/illustration-sign-up-desktop.svg">
+          <img src="./assets/images/illustration-sign-up-mobile.svg" alt="Newsletter illustration">
+        </picture>
+      </div>
+      <div class="form-text">
+        <h1 class="card-title">Stay updated!</h1>
+        <p class="card-desc">Join 60,000+ product managers receiving monthly updates on:</p>
+        <ul class="benefits">
+          <li>
+            <img src="./assets/images/icon-list.svg" alt="check icon">
+            <span>Product discovery and building what matters</span>
+          </li>
+          <li>
+            <img src="./assets/images/icon-list.svg" alt="check icon">
+            <span>Measuring to ensure updates are a success</span>
+          </li>
+          <li>
+            <img src="./assets/images/icon-list.svg" alt="check icon">
+            <span>And much more!</span>
+          </li>
+        </ul>
+        <div class="email-label-container">
+          <label for="email">Email address</label>
+          <p class="error-message hidden">Valid email required</p>
+        </div>
+        <input type="email" id="email" name="email" placeholder="email@company.com" required>
+        <button type="submit" id="submit-form" class="submit-btn">Subscribe to monthly newsletter</button>
+      </div>
+    </form>
 
-  <!-- Sign-up form start -->
-
-  Stay updated!
-
-  Join 60,000+ product managers receiving monthly updates on:
-
-  Product discovery and building what matters
-  Measuring to ensure updates are a success
-  And much more!
-
-  Email address
-  email@company.com
-
-  Subscribe to monthly newsletter
-
-  <!-- Sign-up form end -->
-
-  <!-- Success message start -->
-
-  Thanks for subscribing!
-
-  A confirmation email has been sent to ash@loremcompany.com.
-  Please open it and click the button inside to confirm your subscription.
-
-  Dismiss message
-
-  <!-- Success message end -->
-
+    <section class="success hidden" id="success-message">
+      <img src="./assets/images/icon-success.svg" alt="Success icon" class="success-icon">
+      <h2>Thanks for subscribing!</h2>
+      <p>
+        A confirmation email has been sent to
+        <span id="user-email"></span>. Please open it and click the button inside to confirm your suscription.
+      </p>
+      <button id="dismiss-btn">Dismiss message</button>
+    </section>
+  </main>
 </body>
 
 </html>
