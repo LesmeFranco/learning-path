@@ -1,0 +1,34 @@
+/* Mobile: 375px - Desktop: 1440px */
+/* Family: [Rubik](https://fonts.google.com/specimen/Rubik) - Weights: 300, 400, 500 */
+/* Font size: 18px (card titles e.g. Work, Play) */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..400..500&display=swap');
+
+:root {
+    /* Primary Colors  */
+    --purple-600: hsl(246, 80%, 60%); 
+    --orange-300:hsl(15, 100%, 70%); /* Work */
+    --blue-300: hsl(195, 74%, 62%); /* Play */
+    --pink-400:hsl(348, 100%, 68%); /* Study */
+    --green-400: hsl(145, 58%, 55%); /* Exercise */
+    --purple-700: hsl(264, 64%, 52%); /* Social */
+    --yellow-300: hsl(43, 84%, 65%); /* Self care */
+
+    /* Neutral Colors  */
+    --navy-950: hsl(226, 43%, 10%);
+    --Navy-900: hsl(235, 46%, 20%);
+    --purple-500: hsl(235, 45%, 61%);
+    --navy-200: hsl(236, 100%, 87%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--navy-950);
+    font-family: 'Rubik';
+}
