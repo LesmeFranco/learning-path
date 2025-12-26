@@ -1,0 +1,209 @@
+/* Mobile: 375px - Desktop: 1440px */
+/* Family: [Space Mono](https://fonts.google.com/specimen/Space+Mono) - Weights: 700 */
+/* Font size (form inputs): 24px */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,700&display=swap');
+
+:root {
+    /* Primary Color */
+    --green-400: hsl(172, 67%, 45%);
+
+    /* Neutral Colors */
+    --green-900: hsl(183, 100%, 15%);
+    --grey-500: hsl(186, 14%, 43%);
+    --grey-400: hsl(184, 14%, 56%);
+    --grey-200: hsl(185, 41%, 84%);
+    --grey-50: hsl(189, 47%, 97%);
+    --white: hsl(0, 100%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    appearance: initial;
+    -moz-appearance: textfield;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--grey-200);
+    font-family: 'Space Mono', monospace;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app-header {
+    color: var(--green-900);
+    font-size: 0.8rem;
+    margin: 40px 0;
+}
+
+.app-header h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 0.4em;
+  color: var(--green-900);
+  font-size: 1.2rem;
+}
+
+.app-header span {
+  line-height: 1.4;
+}
+
+.calculator {
+    max-width: 420px;
+    width: 100%;
+    background: var(--white);
+    border-radius: 20px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.field label {
+    color: var(--grey-500);
+    margin-bottom: 10px;
+}
+
+.field input {
+    font-family: 'Space Mono', monospace;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--green-900);
+    background: var(--grey-50);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: right;
+}
+
+#bill {
+    background-image: url('../../images/icon-dollar.svg');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 40px;
+}
+
+#people {
+    background-image: url('../../images/icon-person.svg');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 40px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+}
+
+.tip {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 20px;
+    margin: 10px;
+    border: none;
+}
+
+.tip legend {
+    color: var(--grey-500);
+}
+
+.tip button {
+    background-color: var(--green-900);
+    color: var(--white);
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+
+.tip button:hover, .tip button:focus {
+    background-color: var(--green-400);
+    cursor: pointer;
+    color: var(--green-900);
+}
+
+.tip input {
+    width: 100%;
+    background-color: var(--grey-50);
+    color: var(--grey-500);
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+
+.results {
+    background-color: var(--green-900);
+    color: var(--white);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.results-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.results-row p {
+    color: var(--white);
+    font-size: 0.9rem;
+}
+
+.results-row span {
+    display: block;
+    color: var(--grey-400);
+    font-size: 14px;
+}
+
+.results-row .amount,
+.results-row .total {
+  font-size: 1.5rem;
+  color: var(--green-400);
+}
+
+.results button {
+    width: 100%;
+    background-color: var(--green-400);
+    color: var(--green-900);
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.results button:hover {
+  background-color: var(--grey-200);
+}
