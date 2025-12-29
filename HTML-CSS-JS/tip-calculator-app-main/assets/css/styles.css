@@ -51,19 +51,21 @@ body {
     color: var(--green-900);
     font-size: 0.8rem;
     margin: 40px 0;
+    text-align: center;
 }
 
 .app-header h1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     letter-spacing: 0.4em;
     color: var(--green-900);
     font-size: 1.2rem;
+    text-align: center;
 }
 
 .app-header span {
     line-height: 1.4;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
 }
 
 .calculator {
@@ -94,6 +96,7 @@ body {
     border-radius: 5px;
     padding: 10px;
     text-align: right;
+    outline: none;
 }
 
 .field.bill {
@@ -127,7 +130,7 @@ fieldset {
 
 .tip {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-area: tip;
     gap: 1rem;
     padding: 20px;
@@ -151,7 +154,8 @@ fieldset {
 }
 
 .tip button:hover,
-.tip button:focus {
+.tip button:focus,
+.tip button.active {
     background-color: var(--green-400);
     cursor: pointer;
     color: var(--green-900);
@@ -222,6 +226,26 @@ fieldset {
     background-color: var(--grey-200);
 }
 
+.hidden {
+    display: none;
+}
+
+.label-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input.error-input {
+  border: 2px solid red;
+}
+
+.error {
+  color: red;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
 @media (min-width: 768px) {
     .calculator {
         max-width: 900px;
@@ -231,5 +255,9 @@ fieldset {
             "bill results"
             "tip results"
             "people results";
+    }
+
+    .tip {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
