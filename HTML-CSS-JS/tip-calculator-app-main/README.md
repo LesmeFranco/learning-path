@@ -1,26 +1,23 @@
-# Frontend Mentor - Tip Calculator App Solution
+# Frontend Mentor - Tip calculator app solution
 
-This is a solution to the [Tip Calculator App Challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Tip calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Table of Contents
+## Table of contents
 
 - [Overview](#overview)
-  - [The Challenge](#the-challenge)
-  - [Features](#features)
-  - [Screenshots](#screenshots)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
   - [Links](#links)
-- [My Process](#my-process)
-  - [Built With](#built-with)
-  - [What I Learned](#what-i-learned)
-  - [Continued Development](#continued-development)
-  - [Useful Resources](#useful-resources)
-- [Installation](#installation)
-- [Usage](#usage)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
 
-### The Challenge
+### The challenge
 
 Users should be able to:
 
@@ -28,33 +25,25 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Calculate the correct tip and total cost of the bill per person
 
-### Features
+### Screenshot
 
-- **Responsive Design**: Adapts to different screen sizes for optimal viewing on desktop and mobile devices.
-- **Interactive Elements**: Hover effects on buttons and inputs for better user experience.
-- **Accurate Calculations**: Computes tip amounts and total cost per person based on bill amount, tip percentage, and number of people.
-- **Custom Tip Input**: Allows users to enter a custom tip percentage.
-- **Reset Functionality**: Clears all inputs and results with a single button.
-
-### Screenshots
-
-![Desktop Screenshot](./screenshots/desktop.png)
-![Mobile Screenshot](./screenshots/mobile.png)
+<img src="./screenshots/desktop.png" />
+<img src="./screenshots/mobile.png" />
 
 ### Links
 
-- [Solution URL](https://github.com/LesmeFranco/learning-path/tree/main/HTML-CSS-JS/tip-calculator-app-main)
-- [Live Site](https://lesmefranco.github.io/learning-path/HTML-CSS-JS/tip-calculator-app-main/)
+- [Solution URL](https://your-solution-url.com)
+- [Live Site URL](https://lesmefranco.github.io/learning-path/HTML-CSS-JS/tip-calculator-app-main/)
 
-## My Process
+## My process
 
-### Built With
+### Built with
 
-- **Semantic HTML5** markup
-- **CSS Custom Properties** for consistent styling
-- **Flexbox** and **CSS Grid** for layout
-- **Mobile-first Workflow** for responsive design
-- **Vanilla JavaScript** for interactivity
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
 
 ### What I Learned
 
@@ -74,30 +63,10 @@ In future iterations, I plan to:
 
 ### Useful Resources
 
-- [Web Dev HTML](https://web.dev/learn/html) - This helped me understand all the elements and HTML components. I really liked this pattern and will use it going forward.
-- [Web Dev CSS](https://web.dev/learn/css) - This is an amazing article which helped me finally understand CSS. I'd recommend it to anyone still learning this concept.
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/LesmeFranco/learning-path.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd learning-path/HTML-CSS-JS/tip-calculator-app-main
-   ```
-3. Open `index.html` in your preferred web browser.
-
-## Usage
-
-1. Enter the bill amount.
-2. Select a tip percentage or enter a custom one.
-3. Enter the number of people.
-4. View the calculated tip amount and total per person.
-5. Use the reset button to clear all inputs.
+- [Web Dev HTML](https://web.dev/html) - This helped me to undersantd all the elemnents and html components. I really liked this pattern and will use it going forward.
+- [Web Dev CSS](https://web.dev/css) - This is an amazing article which helped me finally understand CSS. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
-- **GitHub**: [LesmeFranco](https://github.com/LesmeFranco)
-- **Frontend Mentor**: [@LesmeFranco](https://www.frontendmentor.io/profile/LesmeFranco)
+- Github- [LesmeFranco](https://github.com/LesmeFranco)
+- Frontend Mentor - [@LesmeFranco](https://www.frontendmentor.io/profile/LesmeFranco)
