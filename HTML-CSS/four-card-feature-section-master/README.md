@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/LesmeFranco/learning-path/tree/main/HTML-CSS/four-card-feature-section-master)
-- Live Site URL: [Add live site URL here](https://four-card-section-ten.vercel.app/)
+- Live Site URL: [Add live site URL here](https://lesmefranco.github.io/learning-path/HTML-CSS/four-card-feature-section-master/)
 
 ## My process
 

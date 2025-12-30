@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/LesmeFranco/learning-path/tree/main/HTML-CSS/testimonials-grid-section-main)
-- Live Site URL: [Add live site URL here](https://testimonials-grid-section-roan-xi.vercel.app/)
+- [Solution URL](https://github.com/LesmeFranco/learning-path/tree/main/HTML-CSS/testimonials-grid-section-main)
+- [Live Site URL](https://lesmefranco.github.io/learning-path/HTML-CSS/testimonials-grid-section-main/)
 
 ## My process
 

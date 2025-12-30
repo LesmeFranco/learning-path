@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://github.com/LesmeFranco/learning-path/tree/main/HTML-CSS-JS/newsletter-sign-up-with-success-message-main)
-- [Live Site URL](https://newsletter-sign-up-jade-nine.vercel.app/)
+- [Live Site URL](https://lesmefranco.github.io/learning-path/HTML-CSS-JS/newsletter-sign-up-with-success-message-main/)
 
 ## My process
 

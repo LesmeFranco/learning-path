@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://github.com/LesmeFranco/learning-path/tree/main/HTML-CSS-JS/time-tracking-dashboard-main)
-- [Live Site URL](https://time-tracking-dashboard-gold-three.vercel.app/)
+- [Live Site URL](https://lesmefranco.github.io/learning-path/HTML-CSS-JS/time-tracking-dashboard-main/)
 
 ## My process
 

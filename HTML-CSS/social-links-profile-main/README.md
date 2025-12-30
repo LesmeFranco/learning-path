@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://github.com/LesmeFranco/learning-path/tree/main/HTML-CSS/social-links-profile-main)
-- [Live Site URL](https://social-links-profile-five-rouge.vercel.app/)
+- [Live Site URL](https://lesmefranco.github.io/learning-path/HTML-CSS/social-links-profile-main/)
 
 ## My process
 

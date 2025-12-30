@@ -30,7 +30,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - [Solution URL](https://github.com/LesmeFranco/learning-path/tree/main/HTML-CSS/recipe-page-main)
-- [Live Site URL](https://recipe-page-xi-three.vercel.app/)
+- [Live Site URL](https://lesmefranco.github.io/learning-path/HTML-CSS/recipe-page-main/)
 
 ## My process
 

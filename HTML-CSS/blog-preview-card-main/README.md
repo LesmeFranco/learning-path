@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://github.com/LesmeFranco/learning-path/tree/main/HTML-CSS/blog-preview-card-main)
-- [Live Site URL](https://learning-path-beryl.vercel.app/)
+- [Live Site URL](https://lesmefranco.github.io/learning-path/HTML-CSS/blog-preview-card-main/)
 
 ## My process
 

@@ -1,26 +1,26 @@
-# Frontend Mentor - Tip calculator app solution
+# Frontend Mentor - Tip Calculator App Solution
 
-This is a solution to the [Tip calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Tip Calculator App Challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Table of contents
+## Table of Contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [The Challenge](#the-challenge)
+  - [Features](#features)
+  - [Screenshots](#screenshots)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+- [My Process](#my-process)
+  - [Built With](#built-with)
+  - [What I Learned](#what-i-learned)
+  - [Continued Development](#continued-development)
+  - [Useful Resources](#useful-resources)
+- [Installation](#installation)
+- [Usage](#usage)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
-### The challenge
+### The Challenge
 
 Users should be able to:
 
@@ -28,87 +28,76 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Calculate the correct tip and total cost of the bill per person
 
-### Screenshot
+### Features
 
-![](./screenshot.jpg)
+- **Responsive Design**: Adapts to different screen sizes for optimal viewing on desktop and mobile devices.
+- **Interactive Elements**: Hover effects on buttons and inputs for better user experience.
+- **Accurate Calculations**: Computes tip amounts and total cost per person based on bill amount, tip percentage, and number of people.
+- **Custom Tip Input**: Allows users to enter a custom tip percentage.
+- **Reset Functionality**: Clears all inputs and results with a single button.
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+### Screenshots
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![Desktop Screenshot](./screenshots/desktop.png)
+![Mobile Screenshot](./screenshots/mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://github.com/LesmeFranco/learning-path/tree/main/HTML-CSS-JS/tip-calculator-app-main)
+- [Live Site](https://lesmefranco.github.io/learning-path/HTML-CSS-JS/tip-calculator-app-main/)
 
-## My process
+## My Process
 
-### Built with
+### Built With
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- **Semantic HTML5** markup
+- **CSS Custom Properties** for consistent styling
+- **Flexbox** and **CSS Grid** for layout
+- **Mobile-first Workflow** for responsive design
+- **Vanilla JavaScript** for interactivity
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+### What I Learned
 
-### What I learned
+During this project, I learned how to manipulate buttons and inputs with JavaScript to create a responsive calculator. Key takeaways include:
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+- Handling user input validation and dynamic updates.
+- Implementing responsive design using CSS media queries.
+- Using event listeners for interactive elements.
 
-To see how you can add code snippets, see below:
+### Continued Development
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+In future iterations, I plan to:
 
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
+- Add more customization options, such as different themes.
+- Implement local storage to save user preferences.
+- Enhance accessibility features for better usability.
 
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
+### Useful Resources
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+- [Web Dev HTML](https://web.dev/learn/html) - This helped me understand all the elements and HTML components. I really liked this pattern and will use it going forward.
+- [Web Dev CSS](https://web.dev/learn/css) - This is an amazing article which helped me finally understand CSS. I'd recommend it to anyone still learning this concept.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+## Installation
 
-### Continued development
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/LesmeFranco/learning-path.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd learning-path/HTML-CSS-JS/tip-calculator-app-main
+   ```
+3. Open `index.html` in your preferred web browser.
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+## Usage
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+1. Enter the bill amount.
+2. Select a tip percentage or enter a custom one.
+3. Enter the number of people.
+4. View the calculated tip amount and total per person.
+5. Use the reset button to clear all inputs.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- **GitHub**: [LesmeFranco](https://github.com/LesmeFranco)
+- **Frontend Mentor**: [@LesmeFranco](https://www.frontendmentor.io/profile/LesmeFranco)
