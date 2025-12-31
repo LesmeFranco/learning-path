@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL]()
-- [Live Site URL]()
+- [Solution URL](https://github.com/LesmeFranco/learning-path/tree/main/Web-accessibility/interactive-rating-component-main)
+- [Live Site URL](https://lesmefranco.github.io/learning-path/Web-accessibility/interactive-rating-component-main/)
 
 ## My process
 
