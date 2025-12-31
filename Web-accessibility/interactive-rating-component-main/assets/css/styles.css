@@ -1,0 +1,148 @@
+/* Mobile: 375px - Desktop: 1440px */
+/* Family: [Overpass](https://fonts.google.com/specimen/Overpass) - Weights: 400, 700 */
+/* Font size (paragraph): 15px */
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root {
+    /* Primary Color */
+    --orange-500: hsl(25, 97%, 53%);
+
+    /* Neutral Colors */
+    --white: hsl(0, 100%, 100%);
+    --grey-500: hsl(217, 12%, 63%);
+    --grey-900: hsl(213, 19%, 18%);
+    --grey-950: hsl(216, 12%, 8%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: black;
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card {
+    max-width: 420px;
+    width: 100%;
+    background: linear-gradient(360deg, var(--grey-950) 0%, var(--grey-900) 100%);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.card-icon {
+    width: 30px;
+    height: 30px;
+    background-color: var(--grey-900);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    color: var(--white);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    color: var(--grey-500);
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.rating button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--grey-900);
+    color: var(--grey-500);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.rating button:hover {
+    background-color: var(--orange-500);
+    color: black;
+}
+
+.rating button.active {
+    background-color: var(--white);
+    color: black;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    background-color: var(--orange-500);
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.submit-button:hover {
+    background-color: var(--white);
+    color: black;
+
+}
+
+.submit-button:disabled {
+    background-color: var(--grey-500);
+    cursor: not-allowed;
+}
+
+.success {
+    max-width: 420px;
+    width: 100%;
+    background-color: var(--grey-950);
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icon {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.rating-text {
+    background-color: var(--grey-900);
+    color: var(--orange-500);
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
