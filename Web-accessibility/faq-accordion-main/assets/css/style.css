@@ -1,0 +1,104 @@
+/* Mobile: 375px - Desktop: 1440px */
+/* Family: [Work Sans](https://fonts.google.com/specimen/Work+Sans) - Weights: 400, 600, 700 */
+/* Font size (paragraphs): 16px */
+
+@font-face {
+    font-family: "Worksans-Italic";
+    font-weight: 400 600 700;
+    src: url('../fonts/WorkSans-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: "WorkSans";
+    font-weight: 400 600 700;
+    src: url('../fonts/WorkSans-VariableFont_wght.ttf') format('truetype');
+}
+
+:root {
+    /* Colors */
+    --white: hsl(0, 100%, 100%);
+    --purple-100: hsl(275, 100%, 97%);
+    --purple-600: hsl(292, 16%, 49%);
+    --purple-950: hsl(292, 42%, 14%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 420px;
+    width: 100%;
+    background-color: var(--purple-100);
+    font-family: 'WorkSans', sans-serif;
+    background-image: url("../images/background-pattern-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-card {
+    background-color: var(--white);
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.faq-title {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.faq-title img {
+    width: 18px;
+    height: 18px;
+}
+
+.faq-questions {
+    margin-bottom: 20px;
+}
+
+.question-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question-header h3 {
+    font-size: 1rem;
+}
+
+.faq-toggle {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+  background-image: url("../images/icon-plus.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.faq-toggle.active {
+  background-image: url("../images/icon-minus.svg");
+}
+
+.faq-answer  {
+    margin-top: 20px;
+    color: var(--purple-600);
+    line-height: 1.5;
+    font-size: 0.8rem;
+}
+
+.hidden {
+    display: none;
+}
+
+
