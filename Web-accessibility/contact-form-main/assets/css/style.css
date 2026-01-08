@@ -62,16 +62,35 @@ body {
 .name {
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
 }
 
-input,
-textarea {
+input#first-name {
+    margin-bottom: 20px;
+}
+
+input {
     padding: 0.8rem;
+    margin-top: 10px;
     border-radius: 6px;
     border: 1px solid var(--grey-500);
     font-family: inherit;
     font-size: 1rem;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.8rem;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid var(--grey-500);
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+input#email {
+    width: 100%;
+    box-sizing: border-box;
 }
 
 input:focus,
@@ -82,6 +101,10 @@ textarea:focus {
 
 fieldset {
     border: none;
+}
+
+legend {
+    margin-bottom: 10px;
 }
 
 .query-type {
@@ -104,6 +127,11 @@ fieldset {
     accent-color: var(--green-600);
 }
 
+.radio-card input[type="radio"] {
+    margin: 0;
+    transform: translateY(1px);
+}
+
 .radio-card:has(input:checked) {
     background-color: var(--green-200);
     border-color: var(--green-600);
@@ -114,11 +142,12 @@ textarea {
     resize: vertical;
 }
 
-.checkbox label {
+.checkbox {
     display: flex;
-    gap: 0.6rem;
+    gap: 1rem;
     align-items: center;
-    font-size: 0.9rem;
+    font-size: 1rem;
+    margin-bottom: 20px;
 }
 
 .submit {
