@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL]()
-- [Live Site URL]()
+- [Solution URL](https://github.com/LesmeFranco/learning-path/tree/main/Web-accessibility/contact-form-main)
+- [Live Site URL](https://lesmefranco.github.io/learning-path/Web-accessibility/contact-form-main/)
 
 ## My process
 
