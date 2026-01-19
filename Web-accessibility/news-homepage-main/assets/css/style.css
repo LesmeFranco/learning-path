@@ -45,9 +45,8 @@ body {
 }
 
 .page {
-    max-width: 420px;
-    width: 100%;
-    padding: 10px;
+    max-width: 360px;
+    padding: 15px;
 }
 
 header {
@@ -55,44 +54,155 @@ header {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.icon {
+    width: 42px;
+    height: 24px;
 }
 
 .menu-btn {
+    position: fixed;
+    top: 1.5rem;
+    right: 1.5rem;
+    z-index: 1001;
     background: none;
     border: none;
     cursor: pointer;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    width: 70%;
+    max-width: 150px;
+    height: 100vh;
+
+    background-color: hsl(36, 100%, 99%);
+    padding: 6rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    list-style: none;
+
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    z-index: 1000;
+    margin: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #00001a;
+}
+
+.menu.open {
+    transform: translateX(0);
+}
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 900;
 }
 
 .top img {
     width: 100%
 }
 
+.top h1 {
+    width: 70%;
+    font-weight: 800;
+    margin: 10px 0 10px 0;
+}
+
+.top p {
+    margin: 0 0 20px 0;
+    color: var(--dark-grayish-blue);
+    font-size: 0.9rem;
+}
+
+.top button {
+    background-color: var(--soft-red);
+    padding: 15px 30px;
+    border: none;
+    font-family: 'Inter';
+    font-weight: 700;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
 .new-card {
     background-color: var(--very-dark-blue);
-    padding: 10px;
-    margin: 20px 0 20px 0;
+    padding: 20px;
+    margin: 50px 0 40px 0;
 }
 
 .new-card h1 {
-    color: var(--soft-orange)
+    color: var(--soft-orange);
+    margin: 0
 }
 
-.card-content h2 {
+.new-card h2 {
     color: var(--off-white);
+    font-size: 1.25rem;
+    margin-bottom: 0;
 }
 
-.card-content p {
-    color: var(--grayish-blue)
+.new-card p {
+    color: var(--grayish-blue);
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+.new-item {
+    padding: 0.8rem 0;
+    border-bottom: 1px solid hsl(233, 8%, 79%);
+}
+
+.new-item:last-child {
+    border-bottom: none;
 }
 
 .top-news {
     display: flex;
-    margin: 20px;
+    margin-bottom: 30px;
+}
+
+.top-news:last-child {
+    margin-bottom: 0;
 }
 
 .top-news img {
     width: 128px;
     height: 128px;
+}
+
+.content {
+    margin: 0 0 0 20px;
+}
+
+.top-news h1 {
+    color: var(--soft-red);
+    margin: 0;
+}
+
+.top-news h2 {
+    margin: 10px 0 0 0;
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.top-news p {
+    color: var(--dark-grayish-blue);
+    font-size: 0.9rem;
 }
 
 .hidden {
