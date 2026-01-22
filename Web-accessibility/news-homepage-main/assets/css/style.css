@@ -238,19 +238,11 @@ header {
     }
 
     .top {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 30px;
-        row-gap: 0;
+        flex: 2.4;
     }
 
-    .top picture {
-        grid-column: 1 / -1;
-        margin-bottom: -5px;
-    }
-
-    .top > .flex-row {
-        display: contents;
+    .top img {
+        margin-bottom: 30px;
     }
 
     .top h1 {
@@ -259,11 +251,6 @@ header {
         grid-column: 1;
         align-self: start;
         width: auto;
-    }
-
-    .top .flex-column {
-        grid-column: 2;
-        align-self: start;
     }
 
     .top p {
@@ -277,8 +264,15 @@ header {
         width: fit-content;
     }
 
+    .top-content {
+        display: flex;
+        align-items: flex-start;
+        gap: 80px;
+    }
+
     .new-card {
         max-width: 400px;
+        flex: 1;
         margin: 0;
     }
 
@@ -308,6 +302,11 @@ header {
 
     .menu a:hover {
         color: var(--soft-red);
+    }
+
+    .new-item h2:hover {
+        color: var(--soft-orange);
+        cursor: pointer;
     }
 
     .flex-row {
